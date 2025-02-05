@@ -42,7 +42,28 @@ pow(5, 3, degree);
     //     {
 
 
-
+    // function pow(a, b) {
+    //     let result = a;
+    //     for (let i = 1; i < b; i++) {
+    //       result *= a;
+    //     }
+    //     return result;
+    //   }
       
 
 
+
+      // for (let i = 1; i <= 9; i++) {
+//   for (let j = 1; j <= 9; j++) {
+//     console.log(`Результат множення ${i} * ${j} = ${i * j}`);
+//   }
+//   console.log("------------------------------------");
+// }
+
+
+// function degree(x, y){       
+//      for (let x = 1; x < 10; x++) {
+//         for (let y = 1; y < 10; y++)
+//         console.log("Результат res = ${x *= y}"); 
+//      } 
+//      }
