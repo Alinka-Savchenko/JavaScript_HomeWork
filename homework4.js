@@ -24,6 +24,19 @@ for (let i = 0; i < count; i++) {
    let notDoblPercent = ((notDobleNum/generalcount) * 100);
    let formatNotDoblPercent = notDoblPercent.toFixed(1);
    
+
+   let checkTheory;
+   if (doubleNumPercent > notDoblPercent){
+    checkTheory = doubleNumPercent - notDoblPercent;
+   }else{
+      checkTheory = notDoblPercent - doubleNumPercent;
+    }
+
+    if (checkTheory <= 5) {
+      console.log("Теория вероятсности работает в этом случае"); 
+    }else{
+      console.log("Теория вероятсности не работает в этом случае"); 
+    }
    console.log("Количество сгенерированных рандомных чисел из диапазона [100, 1000]:\t", generalcount);
    console.log("\tКоличество парных рандомных чисел из диапазона [100, 1000]:\t\t\t", doubleNum);
    console.log("\tКоличество непарных рандомных чисел из диапазона [100, 1000]:\t\t", notDobleNum);
@@ -31,7 +44,7 @@ for (let i = 0; i < count; i++) {
    console.log("\t\Процент непарных рандомных чисел из диапазона [100, 1000]:\t\t\t", formatNotDoblPercent);
 
 }
-checkProbabilityTheory(1000);
+checkProbabilityTheory(100);
    
 
 
