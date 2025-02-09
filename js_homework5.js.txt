@@ -35,7 +35,7 @@ generalMin(){  //создаем метод,который возвращает �
              generalMinPrice.push(Math.abs(minPrice)); // generalMinPrice -массив, .push()используем для накопления в массив значений,которые затем используются для вычисления минимальной цены
         } 
     }
-    return Math.min(...generalMinPrice).toFixed(2) + "\tгрн";
+    return Math.min(...generalMinPrice).toFixed(2) + "\t\tгрн";
 },
 generalMax(){ //создаем метод,который возвращает максимальную стоимость всех услуг
     let generalMaxPrice = [];
@@ -61,7 +61,6 @@ console.log(services);
 console.log("Общая стоимость услуг:\t\t\t" + services.generalPrice());
 console.log("Мнимальная стоимость услуг:\t\t" + services.generalMin());
 console.log("Максимальная стоимость услуг:\t" + services.generalMax());
-
 
 
 
@@ -104,3 +103,4 @@ for (let key in object) {
 // console.log(bookShelf);
 // bookShelf.getBooks();
 // bookShelf.addBook("Нова книга");
+// return Math.max(...generalMaxPrice).toFixed(2)
