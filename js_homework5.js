@@ -104,3 +104,56 @@ for (let key in object) {
 // bookShelf.getBooks();
 // bookShelf.addBook("Нова книга");
 // return Math.max(...generalMaxPrice).toFixed(2)
+
+
+
+
+
+// let str = "DataTypes";
+// let letter = str[1];
+// console.log(letter);
+
+
+// let text = "Джаваскріпт - це цікаво";
+// let length = text.length;
+// console.log(length);
+
+
+// let divisionResult = "qwerty" / 0;
+// console.log(divisionResult, typeof divisionResult);
+
+// var guessWho = 3.14;
+// guessWho = "А тепер тут строка";
+// guessWho = false;
+// guessWho = 8.97;
+// console.log(guessWho);
+
+
+// let n = 5;
+// n *= 2;
+// console.log(n);
+
+// let sex = "female";
+// let birthday = 29;
+// let discount;
+// if (sex === "male") {
+//   discount = birthday >= 25 ? "30%" : "10%";
+// } else if (sex === "female") {
+//   discount = birthday === 19 ? "30%" : "10%";
+// } else {
+//   discount = birthday === 7 ? "10%" : "5%";
+// }
+// console.log(discount);
+
+
+// console.log(null || 1); 
+
+
+// let i = 0;
+// do {
+//   i += 4;
+//   console.log("i = " + i);
+// } while (i < 11);
+
+
+// const scores = [1, 2, 3, 4, 5];
